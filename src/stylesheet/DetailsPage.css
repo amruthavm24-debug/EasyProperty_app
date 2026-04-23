@@ -1,0 +1,31 @@
+.detail-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.detail-container img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.detail-info {
+  max-width: 400px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #1abc9c;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #16a085;
+}

@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+}
+
+.iconText {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  font-size: 22px;
+}
+
+.iconImg {
+  width: 40px;
+  height: 40px;
+}
+
+.navLinks {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navLinks a:hover {
+  color: #1abc9c;
+}
