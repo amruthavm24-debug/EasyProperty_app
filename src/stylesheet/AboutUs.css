@@ -1,18 +1,18 @@
 .about-page{
  text-align: center;
   padding-top: 40px;
-  background-color: #2c3e50;
-  height: 95vh;
+  /* background-color: #2c3e50; */
+  height: 80vh;
 }
 
 .about-title {
   font-size: 32px;
   margin-bottom: 10px;
-  color: white;
+  color: #2c3e50;
 }
 
 .about-sub {
-  color: rgb(193, 190, 190);
+  color: #8696a6;
   margin-bottom: 40px;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .about-section img {
-  width: 250px;
+  width: 300px;
   height: 350px;
   border-radius: 20px;
-  background: #f9e6e6;
+  background: #2c3e50;
   padding: 20px;
 }
 
@@ -39,9 +39,9 @@
 
 .about-text h2 {
   margin-bottom: 10px;
-  color: white;
+  color:#2c3e50;
 }
 
 .about-text p {
-  color: rgb(193, 190, 190);
+  color: #8696a6;
 }

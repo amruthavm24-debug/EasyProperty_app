@@ -1,12 +1,12 @@
 .contact-page {
   text-align: center;
   padding-top: 40px;
-  background-color: #2f4356;
-  min-height: 100vh;
+  /* background-color: #2f4356; */
+  min-height: 50vh;
 }
 
 .contact-title {
-  color: white;
+  color: #2f4356;
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -18,7 +18,7 @@
 }
 
 .contact-info {
-  background: white;
+  background: #2f4356;;
   padding: 30px;
   width: 300px;
   border-radius: 10px;
@@ -26,10 +26,15 @@
 
 .contact-info h3 {
   margin-top: 15px;
+  color: white;
+}
+
+.contact-info p {
+  color: rgb(233, 230, 230);
 }
 
 .contact-form {
-  background: #eaeaea;
+  background: #2f4356;
   padding: 30px;
   width: 350px;
   border-radius: 10px;
@@ -38,6 +43,7 @@
 
 .contact-form h2 {
   margin-bottom: 20px;
+  color: white;
 }
 
 .contact-form input,
