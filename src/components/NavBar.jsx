@@ -1,6 +1,8 @@
 import React from 'react'
 import icon from '../assets/icon.png'
 import "../stylesheet/NavBar.css";
+import { Link } from "react-router-dom";
+import About from "../Pages/AboutUs.jsx";
 
 export default function NavBar() {
   return (
@@ -12,10 +14,10 @@ export default function NavBar() {
             </h1>
 
             <div className='navLinks'>
-                <a href='/'>Home</a>
-                <a href='/'>About Us</a>
-                <a href='/'>Contact</a>
-                <a href='/'>Sign In</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About Us</Link>   
+                <Link to="/contact">Contact</Link>
+                <Link to="/login">Sign In</Link>
             </div>
             
         </div>

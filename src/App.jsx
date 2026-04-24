@@ -6,6 +6,8 @@ import './App.css'
 import HomePage from './Pages/HomePage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import PropertyDetail from './Pages/Detailpage'
+import About from "./Pages/AboutUs";
+import Contact from "./Pages/ContactUs";
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/property/:id" element={<PropertyDetail />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )
