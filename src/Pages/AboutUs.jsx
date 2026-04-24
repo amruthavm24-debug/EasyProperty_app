@@ -1,6 +1,6 @@
 import React from 'react'
 import "../stylesheet/AboutUs.css";
-import image6 from '../assets/Images6.png'
+import image6 from '../assets/Image6.png'
 
 export default function AboutUs() {
   return (
