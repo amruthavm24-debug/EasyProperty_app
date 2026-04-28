@@ -1,7 +1,4 @@
 
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 import HomePage from './Pages/HomePage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -10,6 +7,7 @@ import About from "./Pages/AboutUs";
 import Contact from "./Pages/ContactUs";
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import Login from './Pages/Login'
 
 function App() {
 
@@ -20,7 +18,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/property/:id" element={<PropertyDetail />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />        
+          <Route path="/contact" element={<Contact />} />  
+          <Route path="/login" element={<Login />} />        
         </Routes>
       <Footer/>
     </BrowserRouter>
